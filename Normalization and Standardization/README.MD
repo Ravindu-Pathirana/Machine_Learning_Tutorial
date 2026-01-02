@@ -11,7 +11,9 @@ It transforms values based on how far they are from the average.
 Formula:
 
 ```
-x' = \frac{x - \mu}{\sigma}
+x' = (x - mean) / standard deviation
+
+x' = (x - μ) / σ
 ```
 
 When to use:
@@ -27,7 +29,7 @@ Normalization scales numerical data into a fixed range, usually between 0 and 1.
 Formula:
 
 ```
-x' = \frac{x - x_{min}}{x_{max} - x_{min}}
+x' = (x - x_min) / (x_max - x_min)
 ```
 
 When to use:
